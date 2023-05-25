@@ -12,8 +12,9 @@ This API developed using PHP with CodeIgniter 3 framework. The endpoints :
 This application is used to get list of birthday user/customer, and then send the birthday message to them. It is developed using PHP Native.
 
 ### How to use
-* Make sure you have installed `php` in your environment. You can test this applications using command line / terminal by entering the application folder then execute `php index.php`
-* Deploy and run the **Node Scheduling** application below
+* Install async library by executing `composer require spatie/async`
+* Test the app by executing `php index.php`
+* Deploy and run the **Node Scheduling** application below to run the birthday-message every hour.
 
 ## Node Scheduling
 This one is used to run the birthday-message-simple-application every hour. It is developed using NodeJS.
