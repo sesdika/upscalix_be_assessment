@@ -5,8 +5,8 @@ This API developed using PHP with CodeIgniter 3 framework. The endpoints :
 * `/customers` : retrieve list of user/customer that the birtday date is today and 9 AM at their location
 
 ### How to use
-* Copy the restful-api folder to server folder. If you use XAMPP, put it on xampp/htdocs folder
-* Open URL http://[domain]/restful-api
+* Copy the restapi-ci folder to server folder. If you use XAMPP, put it on xampp/htdocs folder
+* Open URL http://[domain]/restapi-ci
 
 ## Birthday-Message-Simple-Application
 This application is used to get list of birthday user/customer, and then send the birthday message to them. It is developed using PHP Native.
